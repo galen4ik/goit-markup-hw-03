@@ -1,3 +1,69 @@
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../raleway/raleway-v18-latin-700.eot'); 
+    src: local(''),
+         url('../raleway/raleway-v18-latin-700.eot?#iefix') format('embedded-opentype'), 
+         url('../raleway/raleway-v18-latin-700.woff2') format('woff2'), 
+         url('../raleway/raleway-v18-latin-700.woff') format('woff'), 
+         url('../raleway/raleway-v18-latin-700.ttf') format('truetype'), 
+         url('../raleway/raleway-v18-latin-700.svg#Raleway') format('svg'); 
+  } 
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.eot'); 
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.woff') format('woff'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype'),  
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-regular.svg#Roboto') format('svg'); 
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot'); 
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.eot?#iefix') format('embedded-opentype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.woff2') format('woff2'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.woff') format('woff'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.ttf') format('truetype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-500.svg#Roboto') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.eot'); 
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.woff') format('woff'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.ttf') format('truetype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-700.svg#Roboto') format('svg'); 
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.eot'); 
+    src: local('Roboto Black'), local('Roboto-Black'),
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.eot?#iefix') format('embedded-opentype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.woff2') format('woff2'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.woff') format('woff'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.ttf') format('truetype'), 
+         url('../roboto/roboto-v20-latin_cyrillic-ext_cyrillic-900.svg#Roboto') format('svg'); 
+  }
+
 :root {
     --primary-text-color: #212121;
     --text-color-p: #757575;    
