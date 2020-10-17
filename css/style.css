@@ -1,4 +1,4 @@
-  @font-face {
+  /* @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -9,7 +9,7 @@
          url('../raleway/raleway-v18-latin-700.woff') format('woff'), 
          url('../raleway/raleway-v18-latin-700.ttf') format('truetype'), 
          url('../raleway/raleway-v18-latin-700.svg#Raleway') format('svg'); 
-  } 
+  }  */
 
 
 @font-face {
@@ -86,6 +86,12 @@ li{
 
 .site-nav {
     background-color: var(--white);
+}
+
+.container{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    outline: 2px solid tomato;
 }
 
 .nav-logo {
