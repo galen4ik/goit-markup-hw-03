@@ -17,7 +17,7 @@
         <div class="container">
        <nav class="site-nav">
         <a href="./index.html" class="nav-logo">Web<span class="logo-studio">Studio</span></a>
-        <ul>
+        <ul class="list">
             <li><a href="" class="site-link current">Студия</a></li>
             <li><a href="./portfolio.html" class="site-link">Портфолио</a></li>
             <li><a href="#contacts" class="site-link">Контакты</a></li>
@@ -26,7 +26,7 @@
     </div>
 
     <div class="container">
-       <ul>
+       <ul class="list">
         <li><a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a></li>
         <li><a href="tel:+380991111111" class="info">+38 096 111 11 11</a></li>
     </ul>
@@ -39,18 +39,19 @@
     <!-- Герой -->
     
         <section class="hero">   
-            <div class="container">
+           
             <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
 
             <a href="" class="btn">Заказать услугу</a>
-        </div>
+        
         </section>
 
 
-    <!-- Детали -->
+                       <!-- Детали -->
+
     <section class="details">
         <h2 hidden>План</h2>
-<ul>
+ <div class="container"><ul class="list">
     <li>
         <h3 class="details-title">Внимание к деталям</h3>
         <p class="details-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -71,24 +72,28 @@
         <p class="details-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
     </li>
 </ul>
+</div>
     </section>
 
     <!-- Чем занимаемся -->
     <section class="occupation">        
+     <div class="container">
         <h2 class="occupation-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
             <li><img src="./img/1.jpg" alt="клавиатура" width="370"></li>
             <li><img src="./img/2.jpg" alt="телефон" width="370"></li>
             <li><img src="./img/3.jpg" alt="планшет" width="370"></li>
         
     </ul>
+     </div>
     </section>
 
     <!-- Команда -->
     <section class="team">
+       <div class="container">
         <h2 class="team-title">Наша команда</h2>
 
-        <ul>
+        <ul class="list">
             <li>
                 <img src="./img/igor1.jpg" alt="игорь" width="270">
                 <h3 class="team-names">Игорь Демьяненко</h3>
@@ -112,24 +117,27 @@
                 <p class="team-text">UI Designer</p>
             </li>      
         </ul>
+       </div>
     </section>
 </main>
 
 <!-- Футер -->
     <footer class="footer">
+       <div class="container">
         <a href="./index.html" class="footer-logo">Web<span class="footer-span">Studio</span></a>
 
-      <address id="contacts" class="f-address">
-          <p>г.Киев, пр-т Леси Украинки, 26</p>
-          <ul>
-              <li>
-                <a href="mailto:info@exapmle.com" class="footer-info">info@exapmle.com</a>
-              </li>
-              <li>
-                <a href="tel:+380991111111" class="footer-info">+38 099 111 11 11</a>
-              </li>
-          </ul>
-       </address>
+        <address id="contacts" class="f-address">
+            <p class="f-address-text">г.Киев, пр-т Леси Украинки, 26</p>
+            <ul class="list">
+                <li>
+                  <a href="mailto:info@exapmle.com" class="footer-info">info@exapmle.com</a>
+                </li>
+                <li>
+                  <a href="tel:+380991111111" class="footer-info">+38 099 111 11 11</a>
+                </li>
+            </ul>
+         </address>
+       </div>
     
     </footer>
 </body>
