@@ -233,9 +233,7 @@ main{
 } */
 
 /* team */
-.team{
-    /* height: 648px; */
-}
+
 .team-title {
     color: var(--primary-text-color);
     font-weight: 700;
