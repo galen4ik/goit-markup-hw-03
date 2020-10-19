@@ -88,8 +88,8 @@ li{
 }
 
 .container{
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;    
@@ -159,6 +159,7 @@ main{
 .hero {
     background-color: var(--hero-footer-bcg);   
     text-align: center;
+    
 }
 
 .hero-title{
