@@ -84,7 +84,7 @@ li{
 }
 .site-nav {
     background-color: var(--white);
-    outline: 2px solid tomato;
+    background-color: tomato;
 }
 
 .container{
@@ -135,7 +135,7 @@ li{
 
 .info{
     color: var(--text-color-p);
-    outline: 2px solid black;
+    
 
     font-weight: 500;
     font-size: 14px;
@@ -147,6 +147,9 @@ li{
 .info:focus{
     color: var(--blue);
 }
+.info-list{
+    background-color: pink;
+}
 
 main{
     background-color: var(--bcg-team);
@@ -154,7 +157,6 @@ main{
 
 /* hero */
 .hero {
-    height: 600px;
     background-color: var(--hero-footer-bcg);   
     text-align: center;
 }
@@ -165,10 +167,11 @@ main{
     font-size: 44px;
     line-height: 1.36;
     margin-top: 0;
-    max-width: 696px;
+    /* width: 696px; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    outline: 5px solid yellow;
+    outline: 2px solid yellow;
+    
    
 }
 
@@ -204,6 +207,8 @@ main{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    width: 270px;
+    height: 16px;
 }
 .details-text{
     color: var(--text-color-p);
@@ -213,6 +218,8 @@ main{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
 }
 
 
