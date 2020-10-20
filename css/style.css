@@ -95,6 +95,9 @@ li{
     align-items: center;
 }
 .header-page{
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     background-color: var(--white);
 }
 
@@ -170,8 +173,6 @@ li{
 
 .info{
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
     
     color: var(--text-color-p);
     font-weight: 500;
@@ -186,8 +187,6 @@ li{
 }
 
 
-
-
 /* hero */
 .hero {
     text-align: center;
@@ -196,19 +195,25 @@ li{
     
 }
 
+.hero-cont{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
 .hero-title{
+    width: 696px;
 
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     margin-top: 0;
-    /* width: 696px; */
+  
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    outline: 2px solid yellow;
-    
-   
 }
 
 .btn{
@@ -223,8 +228,7 @@ li{
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
-    outline: 5px solid orangered;
+    line-height: 1.87;  
 }
 
 /* details */
