@@ -101,6 +101,7 @@ li{
 
 .site-nav {
     display: flex;
+    align-items: center;
 
     background-color: var(--white);
 }
@@ -158,12 +159,15 @@ li{
 
 /* Info */
 .info-list{
- display: flex; 
+    display: flex; 
+    align-items: center;
+    margin-left: auto;
 }
 
-.info-list .item + .item{
+.info-list .item:not(:last-child){
     margin-right: 50px;
 }
+
 .info{
     display: block;
     padding-top: 32px;
