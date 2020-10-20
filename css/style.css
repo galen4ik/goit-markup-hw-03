@@ -74,17 +74,12 @@
 body {
     font-family: Roboto, sans-serif;
 }
+main{
+    background-color: var(--bcg-team);
+}
 
 li{
     list-style: none;
-}
-.header{
-    background-color: var(--white);
-    /* height: 80px; */
-}
-.site-nav {
-    background-color: var(--white);
-    background-color: tomato;
 }
 
 .container{
@@ -95,7 +90,36 @@ li{
     padding-right: 15px;    
 }
 
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.header-page{
+    background-color: var(--white);
+}
+
+
+.site-nav {
+    display: flex;
+
+    background-color: var(--white);
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list .item:not(:last-child){
+    margin-right: 50px;
+}
+
+.nav-list .item:first-child{
+    margin-left: 93px;
+}
+
 .nav-logo {
+    display: inline-block;
+
     color: var(--blue);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -103,7 +127,6 @@ li{
     list-style: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    display: inline-block;
 }
 
 .logo-studio{
@@ -133,10 +156,20 @@ li{
     text-decoration: none;
 } 
 
-.info{
-    color: var(--text-color-p);
-    
+/* Info */
+.info-list{
+ display: flex; 
+}
 
+.info-list .item + .item{
+    margin-right: 50px;
+}
+.info{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+    color: var(--text-color-p);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -147,22 +180,20 @@ li{
 .info:focus{
     color: var(--blue);
 }
-.info-list{
-    background-color: pink;
-}
 
-main{
-    background-color: var(--bcg-team);
-}
+
+
 
 /* hero */
 .hero {
-    background-color: var(--hero-footer-bcg);   
     text-align: center;
+
+    background-color: var(--hero-footer-bcg);   
     
 }
 
 .hero-title{
+
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
@@ -177,14 +208,15 @@ main{
 }
 
 .btn{
-    color: var(--white);
-    background-color: var(--blue);
-    text-decoration: none;
-    border-radius: 4px;
     display: inline-block;
     min-width: 200px;
     height: 50px;
     padding: 10px 32px;
+
+    color: var(--white);
+    background-color: var(--blue);
+    text-decoration: none;
+    border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -200,9 +232,9 @@ main{
     
 
 .details-title{
-    color: var(--primary-text-color);
     margin: 0;
 
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -212,9 +244,9 @@ main{
     height: 16px;
 }
 .details-text{
-    color: var(--text-color-p);
     margin: 0;
 
+    color: var(--text-color-p);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -226,6 +258,7 @@ main{
 
 /* occupation */
 .occupation-title{
+
     color: var(--primary-text-color);
 
     font-weight: 700;
