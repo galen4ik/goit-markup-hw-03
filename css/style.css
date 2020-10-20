@@ -190,6 +190,8 @@ li{
 /* hero */
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     background-color: var(--hero-footer-bcg);   
     
@@ -233,24 +235,33 @@ li{
 
 /* details */
 .details{
+    padding-top: 94px;
     background-color: var(--main-background);
-    outline: 2px solid teal;
+    /* outline: 2px solid teal; */
 }
 
-    
+    .details-ul{
+        display: flex;
+    }
 
 .details-title{
     margin: 0;
+    width: 270px;
+    height: 16px;
+    /* padding-bottom: 10px; */
 
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    width: 270px;
-    height: 16px;
+    text-transform: uppercase; 
 }
+
+.details-ul .item:not(:last-child){
+margin-right: 30px;
+}
+
 .details-text{
     margin: 0;
 
@@ -265,6 +276,14 @@ li{
 
 
 /* occupation */
+.occupation{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+
+    background-color: var(--main-background);
+
+}
 .occupation-title{
 
     color: var(--primary-text-color);
@@ -276,14 +295,27 @@ li{
     letter-spacing: 0.03em;
     margin: 0;
 }
-
+.occupation-pics{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.occupation-pics .item:not(:last-child){
+    margin-right: 30px;
+}
 /* .occupation{
     background-color: var(--main-background);   
 } */
 
 /* team */
-
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--bcg-team);
+    
+}
 .team-title {
+
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -366,23 +398,25 @@ letter-spacing: 0.03em;
 
 /* footer */
 .footer{
-    background-color: var(--hero-footer-bcg);
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    background-color: var(--hero-footer-bcg);
+    
 }
 .footer-logo {
-    color: var(--blue);
     display: inline-block;
     margin-bottom: 20px;
 
+    color: var(--blue);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     list-style: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-    background-color: #ccc;
+    
 }
 .footer-span {
     color: var(--white);
@@ -395,7 +429,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    background-color: teal;
+   
 }
 
 .f-address:hover,
@@ -407,6 +441,11 @@ letter-spacing: 0.03em;
     margin: 0;
     padding-bottom: 9px;
 }
+
+.footer-list .item:not(:last-child){
+    padding-bottom: 9px;
+}
+
 .footer-info {
     color: var(--footer-address);
 
@@ -415,10 +454,9 @@ letter-spacing: 0.03em;
     line-height: 1.71
     letter-spacing: 0.03em;
     text-decoration: none;
-    display: inline-block;
-    padding-bottom: 9px;
+    
+    
 }
-
 
 .footer-info:hover,
 .footer-info:focus {
