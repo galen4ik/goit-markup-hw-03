@@ -374,22 +374,45 @@ justify-content: space-between;
 
 /* Portfolio */
 
-/* Фильтры */
-.filter-link{
-    color: var(--primary-text-color);
+.main-portfoilio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--main-background);
+}
 
+/* Фильтры */
+
+.filter-list{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list .item:not(:last-child){
+    margin-right: 8px;
+}
+
+.filter-link{
+    display: inline-block;
+    padding: 6px 22px;
+
+    text-align: center;
+    border: 0px transparent;
+    color: var(--primary-text-color);
+    background-color: var(--bcg-team);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-/* identical to box height, or 162% */
+    border-radius: 4px;
 
 text-align: center;
 letter-spacing: 0.03em;
 }
+
 .filter-link:hover,
 .filter-link:focus{
-    color: var(--blue);
+    background-color: var(--bcg-team);
+    color: var(--white);
 }
 
 /* Offer */
