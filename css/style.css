@@ -361,6 +361,9 @@ margin-right: 30px;
     border-radius: 0px 0px 4px 4px;
 
 }
+.offer-card a{
+    text-decoration: none;
+}
 .team-card img{
     margin-bottom: 30px;
 }
