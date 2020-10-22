@@ -79,6 +79,11 @@ li{
     list-style: none;
 }
 
+.list{
+    padding: 0;
+    margin: 0;
+}
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -110,15 +115,16 @@ li{
 
 .nav-list{
     display: flex;
+    margin-left: 93px;
 }
 
 .nav-list .item:not(:last-child){
     margin-right: 50px;
 }
 
-.nav-list .item:first-child{
+/* .nav-list .item:first-child{
     margin-left: 93px;
-}
+} */
 
 .nav-logo {
     display: inline-block;
@@ -136,10 +142,7 @@ li{
     color: var(--primary-text-color);    
 }
 
-.list{
-    padding: 0;
-    margin: 0;
-}
+
 
 .site-link {
     color: var(--primary-text-color);
@@ -235,19 +238,31 @@ li{
 /* details */
 .details{
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--main-background);
     /* outline: 2px solid teal; */
 }
 
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
     .details-ul{
-        display: flex;
+    display: flex;
     }
 
 .details-title{
     margin: 0;
+    margin-bottom: 10px;
     width: 270px;
     height: 16px;
-    /* padding-bottom: 10px; */
 
     color: var(--primary-text-color);
     font-weight: 700;
@@ -276,7 +291,7 @@ margin-right: 30px;
 
 /* occupation */
 .occupation{
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px;
     
 
@@ -302,9 +317,10 @@ margin-right: 30px;
 .occupation-pics .item:not(:last-child){
     margin-right: 30px;
 }
-/* .occupation{
-    background-color: var(--main-background);   
-} */
+
+.occupation-pics img{
+    display: block;
+}
 
 /* team */
 .team{
@@ -328,7 +344,7 @@ margin-right: 30px;
 
 .team-list{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
 }
 
 /* .team-list:not(:last-child){
@@ -371,15 +387,12 @@ justify-content: space-between;
 
 /* Portfolio */
 
-.main-portfoilio{
+/* Фильтры */
+.filter{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-/* Фильтры */
-/* .filter{
-    margin-top: 94px;
-} */
 .filter-list{
     display: flex;
     justify-content: center;
@@ -395,7 +408,6 @@ justify-content: space-between;
     padding: 6px 22px;
 
     text-align: center;
-    
     color: var(--primary-text-color);
     background-color: var(--bcg-team);
     border: 1px transparent;
@@ -404,8 +416,6 @@ justify-content: space-between;
     font-size: 16px;
     line-height: 1.62;
     border-radius: 4px;
-
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -415,8 +425,8 @@ justify-content: space-between;
     background-color: var(--blue);
 }
 
+/* Оффер */
 
-/* Offer */
 .offer-list{
     display: flex;
     flex-wrap: wrap;
@@ -427,16 +437,18 @@ justify-content: space-between;
     width: 370px;
     margin: 15px;
     background-color: var(--white);
-    border: 1px solid #EEEEEE;
+   
     box-sizing: border-box;
 }
 
-.card-description{
-    margin: 20px 24px;
+.offer-card img{
+    display: block;
 }
-/* .offer-card img{
-    margin-bottom: 20px;
-} */
+.card-description{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+}
+
 .offer-title{
     color: var(--primary-text-color);
 
@@ -445,7 +457,7 @@ justify-content: space-between;
     line-height: 2;
     letter-spacing: 0.06em;
     margin: 0;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
 }
 
 .offer-text{
@@ -456,7 +468,7 @@ justify-content: space-between;
     line-height: 1.8;
     letter-spacing: 0.03em;
     margin: 0;
-    margin-bottom: 20px;
+    
 }
 
 /* footer */
@@ -476,6 +488,7 @@ justify-content: space-between;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
+    font-style: normal;
     list-style: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -490,6 +503,7 @@ justify-content: space-between;
     
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
    
