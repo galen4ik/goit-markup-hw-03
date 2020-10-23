@@ -101,7 +101,7 @@ li{
     padding-bottom: 25px;
 
     background-color: var(--white);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 
 }
 
@@ -121,10 +121,6 @@ li{
 .nav-list .item:not(:last-child){
     margin-right: 50px;
 }
-
-/* .nav-list .item:first-child{
-    margin-left: 93px;
-} */
 
 .nav-logo {
     display: inline-block;
