@@ -498,6 +498,9 @@ margin-right: 30px;
 }   
 
 .f-address{
+    display: flex;
+    flex-direction: column;
+    
     color: var(--white);
     
     font-weight: 400;
