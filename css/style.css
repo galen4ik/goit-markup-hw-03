@@ -445,7 +445,9 @@ margin-right: 30px;
 }
 .card-description{
     padding: 20px 24px;
-    border: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
 
 .offer-title{
@@ -456,7 +458,7 @@ margin-right: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin: 0;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .offer-text{
